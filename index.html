@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>Portal Cinemax</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="./javascript/secret.js"></script>
+    <script src="./javascript/script.js"></script>
+
+</head>
+
+
+<body class="bg">
+
+
+    <header class="container header">
+
+        <div class="row">
+
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                        <img src="imgs/logo.png" class="logo">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-10 menu_area">
+                        <nav class="nav nav-pills flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link active" href="#">Lançamentos</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Em destaque</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Avaliações</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Entrevistas e Making-Of</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="#">Novidades</a>
+
+                            <form class="col-12  p-1 form-inline justify-content-center">
+                                <input class="searchBar form-control bg-transparent text-white mr-sm-2 mr-1" type="search" placeholder="Pesquisar..." aria-label="Search">
+                                <button class="btn btn-outline-secondary my-sm-0" type="submit">Ir</button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <div class="lancamentos container">
+            <section class="row">
+
+                <h1 class="mx-auto p-3">Lançamentos</h1>
+
+                <div class="carrossel p-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <section class="row mb-5">
+                                    <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/zQEjE_M2Esw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                    </div>
+
+                                    <article class="col-lg-6 col-md-12">
+                                        <h3>SONIC - O FILME</h3>
+                                        <span class="h6">Sinopse: </span>
+                                        <p>Sonic, o porco-espinho azul mais famoso do mundo, se junta com os seus amigos para derrotar o terrível Doutor Eggman, um cientista louco que planeja dominar o mundo, e o Doutor Robotnik, responsável por aprisionar
+                                            animais inocentes em robôs.</p>
+
+                                        <div class="mx-auto py-2">
+                                            <span class="h6">Diretor: </span>
+                                            <p>Jeff Fowler</p> <span class="h6">Roteiro: </span>
+                                            <p>Pactrick Casey, Josh Miller</p> <span class="h6">Estreia: </span>
+                                            <p>13 de fevereiro de 2020</p>
+                                        </div>
+
+                                        <h6>Elenco:</h6>
+                                        <p>Jim Carrey, James Marsden, Tika Sumpter</p>
+
+                                    </article>
+                                </section>
+                            </div>
+
+                            <div class="carousel-item">
+                                <section class="row mb-5">
+                                    <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WJ5U2b4otO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+
+                                    <article class="col-lg-6 col-md-12">
+                                        <h3>INVASÃO ZUMBI 2 - PENÍNSULA</h3>
+                                        <span class="h6">Sinopse: </span>
+                                        <p>Em Invasão Zumbi 2: Península, a península coreana ficou devastada após o surto de zumbis que atingiu os passageiros de um trem-bala com destino a Buscan há quatro anos. Com isso, um ex-soldado que conseguiu fugir
+                                            do país, Jung-seok, tem a missão de retornar e acaba encontrando alguns sobreviventes.
+                                        </p>
+
+                                        <div class="mx-auto py-2">
+                                            <span class="h6">Diretor: </span>
+                                            <p>Sang-Ho Yeon</p> <span class="h6">Roteiro: </span>
+                                            <p>Cary Fukunaga, Phoebe Waller-Bridge, Neal Purvis, Scott Z. Burns, Robert Wade
+                                            </p> <span class="h6">Estreia: </span>
+                                            <p>26 de novembro de 2020 /</p>
+                                        </div>
+
+                                        <h6>Elenco:</h6>
+                                        <p>Dong-won Gang, Do-Yoon Kim, Jung-hyun Lee</p>
+
+                                    </article>
+                                </section>
+                            </div>
+
+                            <div class="carousel-item">
+                                <section class="row mb-5">
+                                    <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhLQkkWewtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+
+                                    <article class="col-lg-6 col-md-12">
+                                        <h3>SOUL</h3>
+                                        <span class="h6">Sinopse: </span>
+                                        <p>Em Soul, duas perguntas se destacam: Você já se perguntou de onde vêm sua paixão, seus sonhos e seus interesses? O que é que faz de você... Você? Joe Gardner é um professor de música do ensino médio que sempre sonhou
+                                            em ser músico de jazz. Mas quando, finalmente, tem a chance de impressionar outros músicos durante um ensaio aberto, sofre um acidente que faz com que sua alma seja separada de seu corpo e transportada para
+                                            um centro no qual as almas se desenvolvem e ganham paixões antes de serem enviadas para um recém-nascido. Joe deve trabalhar com 22, uma das almas em treinamento, que tem uma visão obscura da vida depois de
+                                            ficar presa por anos no centro evitando seguir para a Terra.</p>
+
+                                        <div class="mx-auto py-2">
+                                            <span class="h6">Diretor: </span>
+                                            <p>Pete Docter, Kemp Powers</p> <span class="h6">Roteiro: </span>
+                                            <p>Pete Docter, Kemp Powers, Mike Jones</p> <span class="h6">Estreia:
+                                            </span>
+                                            <p>25 de dezembro de 2020 </p>
+                                        </div>
+
+                                        <h6>Elenco:</h6>
+                                        <p>Jamie Foxx, Tina Fey, Graham Norton</p>
+
+                                    </article>
+                                </section>
+                            </div>
+
+                            <div class="carousel-item">
+                                <section class="row mb-5">
+                                    <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-12">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/yzWWSKn_D14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+
+                                    <article class="col-lg-6 col-md-12">
+                                        <h3>MORTAL KOMBAT</h3>
+                                        <span class="h6">Sinopse: </span>
+                                        <p>Em Mortal Kombat, Shang Tsung, imperador da Exoterra, envia seu melhor guerreiro, Sub-Zero, para assassinar o jovem Cole Young. Temendo pela segurança da família, Cole vai em busca de Sonya Blade seguindo a indicação
+                                            de Jax, um major das Forças Especiais, que tem a mesma estranha marca de dragão com a qual Cole nasceu. Logo, ele se vê no templo do Lorde Raiden, um Deus Ancião e guardião do Plano Terreno, que abriga todos
+                                            que possuem a marca. No templo, ele treina com os experientes guerreiros Liu Kang, Kung Lao e Kano, enquanto se prepara para lutar contra os inimigos da Exoterra em uma batalha pelo universo. Será que Cole irá
+                                            longe o suficiente para desbloquear sua arcana - o imenso poder da sua alma - a tempo de salvar não apenas a família, mas interromper os planos de Shang Tsung de uma vez por todas?
+                                        </p>
+
+                                        <div class="mx-auto py-2">
+                                            <span class="h6">Diretor: </span>
+                                            <p>Simon McQuoid</p> <span class="h6">Roteiro: </span>
+                                            <p>Dave Callaham, Oren Uziel, Kevin Tancharoen,</p> <span class="h6">Estreia: </span>
+                                            <p>13 de maio de 2021 </p>
+                                        </div>
+
+                                        <h6>Elenco:</h6>
+                                        <p>Joe Taslim, Josh Lawson, Lewis Tan</p>
+
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- Em destaque & Últimas avaliações -->
+        <div class="detaqueAvaliacoes container">
+            <!-- Em Destaque -  -->
+            <section class="destaques p-2 row">
+
+                <h2 class="col-lg-9 col-md-8 col-sm-6">Em Destaque</h2>
+
+                <div class="dropdown col-lg-3 col-md-4 col-sm-6">
+
+                    <button class="text-white btn btn-lg btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categoria: TODOS
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Ficção Científica</a>
+                        <a class="dropdown-item" href="#">Comédia</a>
+                        <a class="dropdown-item" href="#">Aventura</a>
+                        <a class="dropdown-item" href="#">Romance</a>
+                        <a class="dropdown-item" href="#">Drama</a>
+                        <a class="dropdown-item" href="#">Terror</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Em Destaque - Cartazes -->
+            <section class="cartazes row row-cols-lg-4 row-cols-md-2 row-cols-sm-1">
+
+                <img src="/imgs/filme1.jpg" alt="" class="img-fluid">
+                <img src="/imgs/filme2.jpg" alt="" class="img-fluid">
+                <img src="/imgs/filme3.jpg" alt="" class="img-fluid">
+                <img src="/imgs/filme4.jpg" alt="" class="img-fluid">
+
+            </section>
+
+            <!-- Carregar mais Filmes - Botão -->
+            <section class="carregarMaisFilmes  row">
+
+                <button type="button" class="btn btn-outline-secondary text-white m-2 "> Mais filmes...</button>
+
+            </section>
+
+            <!-- Últimas Avaliações - Título -->
+            <section class="ultAvaliacoesTit ml-0 p-2 row">
+
+                <h2>Últimas Avaliações</h2>
+
+            </section>
+
+            <!-- Últimas Avaliações - Cards -->
+            <section id="team" class="pb-3">
+                <div class="container">
+                    <h5 class="section-title h1"></h5>
+                    <div class="row">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip">
+                                <div class="mainflip flip-0">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_03.png" alt="card image"></p>
+                                                <h4 class="card-title">Suzane S.</h4>
+                                                <p class="card-text">NOMADLAND</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Suzane S.</h4>
+                                                <p class="card-text">Frances McDormand em ação numa atuação excelente e possivelmente indicada e favorita ao óscar! Falando filme, temos aqui um roteiro redondo, pausado em momentos certos com diálogos excepcionais. Filmão</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_02.png" alt="card image"></p>
+                                                <h4 class="card-title">Felipe A.</h4>
+                                                <p class="card-text">FUJA</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Felipe A.</h4>
+                                                <p class="card-text">Gostei demais! O filme é bastante objetivo e sem enrolação, sua dinâmica é tão boa que o filme passou tão rápido que eu nem percebi. A história prende do início ao fim com cenas de muita tensão e mistério.
+                                                    Ótimo suspense. Valeu pela expectativa.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                                <div class="mainflip">
+                                    <div class="frontside">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <p><img class=" img-fluid" src="imgs/critica1.jpg" alt="card image"></p>
+                                                <h4 class="card-title">Higor B.</h4>
+                                                <p class="card-text">LIGA DA JUSTIÇA - SNYDER CUT</p>
+                                                <a href="#" class="btn btn-primary btn-sm"><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                        class="fas fa-star"></i><i class="fas fa-star"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside">
+                                        <div class="card">
+                                            <div class="card-body text-center mt-4">
+                                                <h4 class="card-title">Higor B.</h4>
+                                                <p class="card-text">Um dos melhores filmes de quadrinhos já feitos. Tem alma, tem emoção, é forte e pesado. O começo é lento, literalmente por causa do Slow Motion excessivo, mas quando engrena, não tem quem pare. É uma obra
+                                                    prima, que espero que mude o rumo do gênero de super-heróis.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Team member -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Carregar mais Avaliações - Botão -->
+            <section class="carregarMaisAvaliacoes row">
+
+                <button type="button" class="btn btn-outline-secondary text-white m-2"> Mais
+                    Avaliações...</button>
+
+            </section>
+
+        </div>
+
+        <!-- Entrevista & Making Of -->
+        <div class="entrevistasMakingOf container">
+
+            <!-- Entrevista & Making Of - Título -->
+            <section class="entrevistasMakingOfTit ml-0 p-2 row">
+
+                <h2>Entrevistas & Making Of</h2>
+
+            </section>
+
+            <!-- Entrevista & Making Of - Conteúdo -->
+            <section class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 mx-auto">
+
+                <div class="px-1 my-auto">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j-0nS0tYKwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="py-2"><b class="h4">Filme: </b> Mortal-Kombat</p>
+                    <p><b class="h6">Diretor: </b> Simon McQuoid</p>
+                    <p><b class="h6">Roteiro: </b> Dave Callaham </p>
+                    <p><b class="h6">Estreia: </b>2021</p>
+                </div>
+
+                <div class="px-1 my-auto">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cLVNJ50vCDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="py-2"><b class="h4">Filme: </b> Coringa </p>
+                    <p><b class="h6">Diretor: </b> Todd Phillips</p>
+                    <p><b class="h6">Roteiro: </b> Scott Silver </p>
+                    <p><b class="h6">Estreia: </b>2019</p>
+                </div>
+
+                <div class="px-1 my-auto">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-4zVqbFoJoA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <p class="py-2"><b class="h4">Filme: </b> IT - CAPÍTULO 2</p>
+                    <p><b class="h6">Diretor: </b> Andy Muschietti</p>
+                    <p><b class="h6">Roteiro: </b> Stephen King </p>
+                    <p><b class="h6">Estreia: </b>2019</p>
+
+                </div>
+
+            </section>
+
+            <!-- Carregar mais Filmes - Botão -->
+            <section class="carregarMaisFilmes row">
+
+                <button type="button" class="btn btn-outline-secondary text-white m-2"> Mais filmes...</button>
+
+            </section>
+
+        </div>
+
+        <!-- Novidades & Sobre & Editorial -->
+        <div class="novidadesSobreEditorial container">
+            <div class="row flex">
+
+                <!-- Novidades -->
+                <section class="novidades col-lg-8 col-md-12 p-3">
+
+                    <!-- Novidades - Título -->
+                    <div class="novidadesTit ml-0 row">
+
+                        <h2>Novidades</h2>
+
+                    </div>
+
+                    <!-- Novidades - Conteúdo -->
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 col-sm-12 p-2">
+                                <img src="/imgs/velozes.jpg" class="card-img" alt="Avaliador">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trailer de Velozes e Furiosos 9 mostra carro tunado no espaço
+                                    </h5>
+                                    <p class="card-text">A Universal divulgou, nesta quarta-feira (14), o novo trailer de Velozes e Furiosos 9. O 9º filme da franquia de ação chegará aos cinemas em julho de 2021.</p>
+                                    <span class="badge badge-pill badge-secondary">velocidade</span> <span class="badge badge-pill badge-secondary">espaço</span> <span class="badge badge-pill badge-secondary">Vin Diesel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 col-sm-12 p-2">
+                                <img src="imgs/spider.jpg" class="card-img" alt="Avaliador">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="card-body">
+                                    <h5 class="card-title">Homem-Aranha 3: Multiverso vai conectar os filmes com Tobey Maguire e Andrew Garfield na Fase 4 da Marvel</h5>
+                                    <p class="card-text">Homem-Aranha 3 pode colocar Tom Holland, Tobey Maguire e Andrew Garfield juntos por causa do Multiverso na Marvel.</p>
+                                    <span class="badge badge-pill badge-secondary">spider</span> <span class="badge badge-pill badge-secondary">multiverso</span> <span class="badge badge-pill badge-secondary">marvel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-lg-6 col-sm-12 p-2">
+                                <img src="/imgs/shang.jpeg" class="card-img" alt="Avaliador">
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="card-body">
+                                    <h5 class="card-title">Marvel divulga o primeiro trailer de Shang-Chi and the Legend of the Ten Rings</h5>
+                                    <p class="card-text">Shang-Chi and the Legend of the Ten Rings conta com Simu Liu no papel principal, além de Awkafina e Tony Leung. A estreia está marcada para 3 de setembro de 2021</p>
+                                    <span class="badge badge-pill badge-secondary">trailer</span> <span class="badge badge-pill badge-secondary">lançamento</span> <span class="badge badge-pill badge-secondary">marvel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Sobre & Editorial & Redes Sociais -->
+                <section class="sobreEditorialRedes col-lg-4 col-md-12 p-3 pl-5">
+
+                    <!-- Sobre - Título -->
+                    <div class="sobreTit row">
+
+                        <h2>Sobre</h2>
+
+                    </div>
+
+                    <!-- Sobre - Conteúdo -->
+                    <div class="sobreConteudo row">
+                        <p class="mr-4">O CineMax é um portal de filmes desenvolvido como método de avaliação em forma de trabalho da disciplina Desenvolvimento de Interfaces WEB do curso de Sistemas de Informaçao na PUC-MG. Feito baseado nas aulas sobre Bootstrap, Responsividade
+                            e Layouts Grid.</p>
+                    </div>
+
+                    <!-- Editorial - Título -->
+                    <div class="editorialTit row">
+
+                        <h2>Editorial</h2>
+
+                    </div>
+
+                    <!-- Editorial - Conteúdo -->
+                    <div class="editorialConteudo row">
+
+                        <p>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+
+                            <b class="h6">Redação: </b> Iago Leles Coosta de Rezende
+
+                        </p>
+
+                        <p>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+                            <b class="h6">Pesquisa: </b> Iago Leles Coosta de Rezende
+                        </p>
+
+                        <p>
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg>
+
+                            <b class="h6">Gerente Geral: </b> Iago Leles Coosta de Rezende
+                        </p>
+
+                    </div>
+
+                    <!-- Redes Sociais - Título -->
+                    <div class="redesSociais row">
+
+                        <h3>Redes sociais</h3>
+
+                    </div>
+
+                    <!-- Redes Sociais - Conteúdo -->
+                    <div class="redesSociais_2 row">
+
+                        <a href="https://www.linkedin.com/in/iago-leles-641760189/">
+                            <i class="h1 p-1 text-white fab fa-linkedin"></i>
+                        </a>
+                        <a href="#"><i class="h1 p-1 text-white fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="h1 p-1 text-white fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/iagoleles_/"><i
+                                class="h1 p-1 text-white fab fa-instagram"></i></a>
+
+                    </div>
+
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="rodape container">
+        <article class="row text-center mx-3">
+            <p class="my-auto col-lg-10 col-md-8 col-sm-7 mx-auto">Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b>
+                <img class="row col-lg-6 col-sm-12 p-2 footer-logo" src="imgs/logo.png">
+            </p>
+
+
+
+
+        </article>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+
+
+</html>
